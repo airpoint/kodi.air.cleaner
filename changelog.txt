@@ -1,0 +1,20 @@
+2.0.0
+-Redesign by @airpoint
+
+1.0.6
+-Added Automatic exit after deleting thumbnails
+-Code cosmetics
+
+1.0.2
+-Added conditions for ATV2
+
+1.0.1
+-Added Delete Cache
+-Added Purge Packages
+
+1.0.0
+-Initial python for deleting thumbnails
+
+Known Errors:
+-Delete Thumbnails does not work on Windows. Throws exceptions.WindowsError
+'The process cannot access the file because it is being used by another process'

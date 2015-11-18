@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.air.cleaner"
+			 name="Air Cleaner"
+			 version="2.0.0"
+			 provider-name="@airpoint">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>One-click solution to clean up everything.</summary>
+		<description>Delete Cache, Thumbnails and Packages from within Kodi.</description>
+		<language></language>
+		<license>GPL</license>
+		<source></source>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
